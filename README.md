@@ -8,6 +8,7 @@ To setup your environment, you first need to install a Go distribution. The appr
 Instructions on how to install the Go SDK package for Watson can be found here https://github.com/watson-developer-cloud/go-sdk
 
 ## Using the Go-STT-Go examples
-Clone the source code from this repository 
+Clone the source code from this repository using the folliwing command
 git clone https://github.com/rodalton/Go-STT-Go.git
+
 
