@@ -19,11 +19,11 @@ To use the examples made available in this repository, follow the steps below.
 1. Clone the source code from this repository using the folliwing command
 `git clone https://github.com/rodalton/Go-STT-Go.git`
 
-2. Edit the Go file you plan to run to include the API Key and service URL for you STT instance using a text editor. 
+2. Edit the Go file you plan to run to include the API Key and service URL for you STT instance using a text editor. You'll find these values from the Service credentials tab of your Speech to Text service instance on IBM Cloud. Save the changes your Go file. 
 
-3. Save your Go file 
+3. From a terminal window, navigate to the directory that contains the Go file edited earlier. Issue the `go build` command to build an executable file that we'll run in the next step. 
 
-4. Run your Go file 
+4. Run the executable built in step 3 from the terminal window, for example issue the command `./RecognizeFile`. The executable will call the Watson Speech to Text API and print a transcript of the audio file to the terminal window. 
 
 
 
