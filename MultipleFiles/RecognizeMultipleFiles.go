@@ -19,7 +19,7 @@ func main() {
 		// Instantiate the Watson Speech To Text service
 		service, serviceErr := speechtotextv1.
 			NewSpeechToTextV1(&speechtotextv1.SpeechToTextV1Options{
-				URL:       "https://gateway-wdc.watsonplatform.net/speech-to-text/api",
+				URL:       "<URL>",
 				IAMApiKey: "<API_KEY>",
 			})
 
@@ -32,7 +32,7 @@ func main() {
 		fmt.Println(f.Name())
 		pwd, _ := os.Getwd()
 		// Open file with mp3 to recognize
-		audio, audioErr := os.Open(pwd + "/audio/" + f.Name())
+		audio, audioErr := os.Open(pwd + "../audio/" + f.Name())
 		if audioErr != nil {
 			panic(audioErr)
 		}
